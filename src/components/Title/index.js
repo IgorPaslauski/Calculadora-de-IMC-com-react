@@ -1,10 +1,19 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
 export default function Title() {
     return (
         <View>
-            <Text>Hellow Word</Text>
+            <Text style={styles.title}>Calculadora de IMC</Text>
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+    title: {
+        fontSize: 24,
+        color: '#000',
+        fontWeight: 'bold',
+        marginBottom: 95,
+    },
+});
