@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from "react-native";
 export default function Title() {
     return (
         <View>
-            <Text style={styles.title}>Calculadora de IMC</Text>
+            <Text style={styles.title}>Calculadora de IMC Atualizada</Text>
         </View>
     );
 }
